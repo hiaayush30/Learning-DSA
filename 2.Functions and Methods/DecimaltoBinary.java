@@ -4,12 +4,12 @@ public class DecimaltoBinary {
        int power=0;
         while(decimal!=0){
           result=result+((decimal%2)*(int)Math.pow(10, power));
-          decimal/=2;
           power++;
+          decimal/=2;
         }
         System.out.println(result);
     }
     public static void main(String[] args) {
-        calculateBinary(2);
-    }
+        calculateBinary(7);
+    }   
 }
