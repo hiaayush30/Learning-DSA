@@ -12,6 +12,6 @@ public class HollowRectangle {
         }
     }
     public static void main(String[] args) {
-       printHollowRectangle(4,5);
+       printHollowRectangle(4,5); 
     }
 }
