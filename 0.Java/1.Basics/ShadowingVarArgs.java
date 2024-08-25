@@ -10,6 +10,7 @@ public class ShadowingVarArgs {
 // a parameter in a method has the same name as a class-level(or instance-level) 
 // variable.
         int x;  //shadowing begins from declaration
+        // System.out.println(x); //will give error
         x=40;
         System.out.println(x); //40
         fun();
