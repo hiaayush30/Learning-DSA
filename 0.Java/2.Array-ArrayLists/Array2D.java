@@ -20,5 +20,6 @@ public class Array2D {
         for (int[] array:arr) {
             System.out.println(Arrays.toString(array));
         }
+        System.out.println(Arrays.deepToString(arr));
     }
 }

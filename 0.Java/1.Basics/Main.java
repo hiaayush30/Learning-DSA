@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main {
@@ -6,6 +5,7 @@ public class Main {
 //class is a named group of properties and functions  1 public class Main{
 
     public static void main(String[] args) {  //args store the command line arguments
+        final float pi=3.14f;
         System.out.println("Hello World!");
         Scanner sc = new Scanner(System.in);
         long num = 1234455066L;

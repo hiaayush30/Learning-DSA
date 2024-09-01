@@ -6,6 +6,7 @@ public class Array {
         arr[0]=50;
     }
     public static void main(String[] args) {
+        //Array is of fixed length
          int[] roll={1,2,3,4,5};   //roll is an object created in heap
          int[] roll1=new int[5];  //roll1 is an object created in heap
 //        int[] arr  this declaration happens at compile time
